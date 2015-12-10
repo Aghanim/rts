@@ -37,23 +37,6 @@ $(document).ready(function(){
             $('.inputNew').focus();
             return false;
         }
-        var url = "http://demopavothemes.com/pav_styleshop/d/index.php?route=module/pavnewsletter/subscribe";
-        $.ajax({
-            type: "post",
-            url: url,
-            data: $("#formNewLestter").serialize(),
-            dataType: 'json',
-            success: function (json) {
-                $(".success_inline, .warning_inline, .error").remove();
-                if (json['error']) {
-                    $('.valid').html("<div class=\"warning_inline alert alert-danger\">" + json['error'] + "<button type=\"button\" class=\"close\" data-dismiss=\"alert\">×</button></div>");
-                }
-                if (json['success']) {
-                    $('.valid').html("<div class=\"success_inline alert alert-success\">" + json['success'] + "<button type=\"button\" class=\"close\" data-dismiss=\"alert\">×</button></div>");
-                }
-            }
-        });
-        return false;
     });
 
     function isValidEmailAddress(emailAddress) {
