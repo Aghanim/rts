@@ -12,18 +12,3 @@
 .pav-verticalmenu .dropdown-submenu:hover .dropdown-menu {
   display: block;
 }
-
-.footer_copyright_payments {
-    float: right;
-    margin-top: 10px;
-    margin-bottom: -5px;
-    padding-top: 0;
-    padding-left: 0;
-}
-
-.footer_copyright_payments li {
-    display: inline-block;
-    margin-right: 4px;
-    width: 55px;
-    line-height: 20px;
-}

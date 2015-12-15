@@ -5099,3 +5099,31 @@ ul.social li:hover span {
   width: 100%;
   opacity: 1;
 }
+
+.footer_copyright_payments {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    padding-top: 0;
+    padding-left: 0;
+}
+
+.footer_copyright_payments li {
+    display: inline-block;
+    margin-right: 4px;
+    width: 55px;
+    line-height: 20px;
+}
+
+.sidebar .filter-price ul>li, .sidebar .filter-vendor ul>li {
+    line-height: 30px;
+}
+
+.filter-price label, .filter-vendor label{
+    font-weight: normal;
+}
+
+.filter-price input, .filter-vendor input{
+    margin-right: 15px;
+}
+
