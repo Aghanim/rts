@@ -2922,7 +2922,6 @@ ul.contact-us li a {
   border: 1px solid #ebeef2;
 }
 .product-info .product-extra .cart {
-  margin-left: 10px;
   display: inline-block;
 }
 .product-info .product-extra .action {
@@ -5127,3 +5126,47 @@ ul.social li:hover span {
     margin-right: 15px;
 }
 
+.d-col-1 {
+    float: left;
+    width: 390px;
+    margin-right: 10px;
+}
+
+.d-col-2 {
+    float: left;
+}
+
+.free-shipping {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.free-shipping span {
+    color: #FF5E27;
+}
+
+.plans {
+    margin: 40px 0 30px;
+}
+
+.plans p{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.plans label {
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+.warranty {
+    text-transform: uppercase;
+    color: #4E91B6;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.plans input[type="radio"]{
+    margin-right: 5px;
+}
