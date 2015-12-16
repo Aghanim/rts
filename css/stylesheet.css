@@ -2713,7 +2713,7 @@ ul.contact-us li a {
   margin: 0;
 }
 .product-info .carousel-inner a img {
-  border: 1px solid #ebeef2;
+  /*border: 1px solid #ebeef2;*/
   -webkit-transition: border-color 500ms ease;
   transition: border-color 500ms ease;
   -webkit-border-radius: 4px;
@@ -2746,7 +2746,7 @@ ul.contact-us li a {
   position: relative;
   margin-bottom: 10px;
   text-align: center;
-  border: 1px solid #ebeef2;
+  /*border: 1px solid #ebeef2;*/
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
