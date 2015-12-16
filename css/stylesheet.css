@@ -2767,16 +2767,18 @@ ul.contact-us li a {
   clear: both;
 }
 .product-info .price {
-  padding: 10px 0;
   color: #3e474b;
   font-size: 13px;
 }
 .product-info .price .text-price {
   display: none;
 }
-.product-info .price .price-gruop,
+.product-info .price .price-gruop {
+
+}
+.product-info .price .price-new,
 .product-info .price .price-old {
-  font-size: 18px;
+  font-size: 20px;
   font-family: "museo300", sans-serif;
   text-transform: uppercase;
   color: #f05423;
@@ -5128,11 +5130,14 @@ ul.social li:hover span {
 
 .d-col-1 {
     float: left;
-    width: 390px;
+    width: 350px;
     margin-right: 10px;
+    margin-left: 17px;
 }
 
 .d-col-2 {
+    margin-right: 10px;
+    margin-left: 17px;
     float: left;
 }
 
@@ -5141,8 +5146,12 @@ ul.social li:hover span {
     font-weight: bold;
 }
 
-.free-shipping span {
+.free-shipping a {
     color: #FF5E27;
+}
+
+.free-shipping a:hover {
+    text-decoration: underline;
 }
 
 .plans {
@@ -5169,4 +5178,21 @@ ul.social li:hover span {
 
 .plans input[type="radio"]{
     margin-right: 5px;
+}
+
+.product-info .description p{
+    line-height: 20px;
+}
+
+.product-info .price .price-old {
+    font-size: 16px;
+}
+
+.product-block.item-default .image a.img img{
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.product-block.item-default .image a.img {
+    display: inline-block;
 }
